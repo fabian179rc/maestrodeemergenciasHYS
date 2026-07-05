@@ -2,39 +2,39 @@ import React from 'react';
 import { motion } from 'framer-motion';
 const situations = [
 {
-  emoji: '�',
-  title: 'El Domingo a la Noche que No Para',
-  desc: 'Mañana tenés capacitación y todavía no terminaste las diapositivas. Otra vez buscando plantillas en Google a las 11 de la noche.'
+  emoji: '😰',
+  title: 'Cada Auditoría Empieza Desde Cero',
+  desc: 'Cada cliente requiere volver a preparar checklists, formularios, informes y documentación. Nunca sentís que tenés un método realmente organizado.'
 },
 {
   emoji: '😩',
-  title: 'El Miedo a que te Agarren sin Material',
-  desc: 'Sabés que algunas capacitaciones no están bien documentadas y que si llega una auditoría, los registros no van a alcanzar.'
+  title: 'El Miedo a Olvidarte un Hallazgo Importante',
+  desc: 'Sabés que una observación que no registraste hoy puede convertirse en un problema mañana.'
 },
 {
   emoji: '⚖️',
-  title: 'La Responsabilidad Legal que Pesa',
-  desc: 'No siempre tenés claro qué documentos respaldan cada capacitación y cuáles pueden dejarte expuesto ante la ART o el Ministerio.'
+  title: 'La Responsabilidad Técnica Que Siempre Está Presente',
+  desc: 'No alcanza con detectar un riesgo. Necesitás documentarlo correctamente, clasificarlo y respaldar cada observación con evidencia.'
 },
 {
   emoji: '⏱️',
-  title: 'El Tiempo que se va en Preparar desde Cero',
-  desc: 'Cada nuevo cliente, cada nueva industria, cada nuevo tema significa volver a crear presentaciones, evaluaciones y registros desde cero.'
+  title: 'Horas Perdidas Armando Informes',
+  desc: 'Terminás la recorrida en una hora… pero después pasás toda la tarde redactando informes y organizando fotografías.'
 }];
 
 export function ProblemSection() {
   return (
-    <section className="py-16 md:py-24 bg-white pt-[30px] pb-[30px]">
+    <section className="py-16 md:py-24 bg-[#f9f8f6] pt-[30px] pb-[30px]">
       <div className="container mx-auto px-4 max-w-[1100px]">
         <div className="text-center mb-12">
-          <h2 className="font-heading text-3xl md:text-5xl font-extrabold mb-4 text-[#1a2e5a]">
-            ¿TE RECONOCÉS EN ESTO?
+          <h2 className="font-heading text-3xl md:text-5xl font-semibold mb-4 text-[#2f3a2c] uppercase">
+            ¿Te reconocés en esto?
           </h2>
-          <p className="text-xl md:text-2xl font-bold text-[#1a2e5a]/80 mb-6">
-            ¿Preparar capacitaciones te quita más tiempo del que debería?
+          <p className="text-xl md:text-2xl font-heading italic text-[#8a6a4f] mb-6">
+            ¿Las auditorías te llevan más tiempo del que deberían?
           </p>
-          <p className="text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
-            Si sos Técnico o Licenciado en Higiene y Seguridad, probablemente vivís alguna de estas situaciones.
+          <p className="text-lg text-[#4b5347] leading-relaxed max-w-2xl mx-auto">
+            Si sos Técnico o Licenciado en Higiene y Seguridad, probablemente vivís alguna de estas situaciones:
           </p>
         </div>
 
@@ -56,13 +56,13 @@ export function ProblemSection() {
             transition={{
               delay: i * 0.1
             }}
-            className="bg-[#f8f8f8] p-8 rounded-2xl shadow-sm border border-slate-100">
-            
+            className="bg-white p-8 rounded-2xl shadow-sm border border-[#e6ddc7]">
+
               <div className="text-4xl mb-4">{item.emoji}</div>
-              <h3 className="text-xl font-bold text-[#1a2e5a] mb-3">
+              <h3 className="text-xl font-bold text-[#2f3a2c] mb-3">
                 {item.title}
               </h3>
-              <p className="text-slate-600 leading-relaxed text-[16px]">
+              <p className="text-[#4b5347] leading-relaxed text-[16px]">
                 {item.desc}
               </p>
             </motion.div>

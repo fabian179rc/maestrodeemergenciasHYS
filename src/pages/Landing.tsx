@@ -3,9 +3,9 @@ import { HeroSection } from '../components/HeroSection';
 import { ProblemSection } from '../components/ProblemSection';
 import { SolutionSection } from '../components/SolutionSection';
 import { FeaturesSection } from '../components/FeaturesSection';
-import { ModulesSection } from '../components/ModulesSection';
+import { BloquesSection } from '../components/BloquesSection';
 import { BonusesSection } from '../components/BonusesSection';
-import { BenefitsSection } from '../components/BenefitsSection';
+import { ChangesSection } from '../components/ChangesSection';
 import { PricingSection } from '../components/PricingSection';
 import { GuaranteeSection } from '../components/GuaranteeSection';
 import { TestimonialsBottom } from '../components/TestimonialsBottom';
@@ -24,13 +24,13 @@ export function Landing() {
         <FeaturesSection />
       </div>
       <div className="cv-section">
-        <ModulesSection />
+        <BloquesSection />
       </div>
       <div className="cv-section">
         <BonusesSection />
       </div>
       <div className="cv-section">
-        <BenefitsSection />
+        <ChangesSection />
       </div>
       <PricingSection />
       <div className="cv-section">

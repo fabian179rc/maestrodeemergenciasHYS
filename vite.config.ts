@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/", // <-- IMPORTANTE: Pon aquí el nombre exacto de tu repositorio entre barras
+  base: "./", // Rutas relativas: funciona tanto en la raíz (dominio propio) como en /repo-name/ (github.io)
 });

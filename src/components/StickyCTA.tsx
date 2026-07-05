@@ -57,9 +57,9 @@ export function StickyCTA() {
             whileTap={{
               scale: 0.98
             }}
-            className="inline-flex items-center justify-center gap-2 bg-[#f5c842] hover:bg-[#e5b832] text-[#1a2e5a] font-extrabold text-base px-8 py-4 rounded-full shadow-2xl shadow-[#1a2e5a]/20 border-2 border-white/50 transition-colors">
+            className="inline-flex items-center justify-center gap-2 bg-[#b85c43] hover:bg-[#a34f38] text-white font-extrabold text-base px-8 py-4 rounded-full shadow-2xl shadow-[#2f3a2c]/20 border-2 border-white/50 transition-colors">
             
-              🚀 QUIERO EL SISTEMA MAESTRO
+              🚀 ¡QUIERO EL SISTEMA MAESTRO!
             </motion.a>
           </div>
         </motion.div>
