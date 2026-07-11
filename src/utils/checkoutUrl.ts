@@ -1,4 +1,4 @@
-const CHECKOUT_BASE_URL = 'https://placeholder.impultienda.ar/checkout';
+const CHECKOUT_BASE_URL = 'https://maestro-de-emergencias.impultienda.ar/checkout';
 
 /**
  * Appends the current page's query string (utm_source, utm_campaign, gclid,

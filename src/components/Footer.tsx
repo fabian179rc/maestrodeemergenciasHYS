@@ -1,7 +1,7 @@
 import React from 'react';
 export function Footer() {
   return (
-    <footer className="bg-[#232b21] text-[#c1c8b6] py-10 border-t border-[#3a4434]">
+    <footer className="bg-[#201B19] text-[#D9C9C2] py-10 border-t border-[#3D2C28]">
       <div className="container mx-auto px-4 max-w-5xl text-center">
         <div className="text-white font-bold text-xl mb-6 flex items-center justify-center gap-2">
           🛡️ SISTEMA MAESTRO DE EMERGENCIAS HyS
@@ -28,7 +28,7 @@ export function Footer() {
           </a>
         </div>
 
-        <div className="text-xs text-[#a4ad96]">
+        <div className="text-xs text-[#8C7A74]">
           <p>
             © 2026 Sistema Maestro de Emergencias HyS — Todos los
             derechos reservados.

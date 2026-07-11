@@ -5,11 +5,11 @@ export function GuaranteeSection() {
     <section className="py-10 md:py-14 bg-transparent">
       <div className="container mx-auto px-4 max-w-3xl text-center">
         <div className="mb-8">
-          <span className="inline-block px-6 py-2.5 mb-5 rounded-full border border-white/40 bg-[#566049] text-white font-semibold tracking-[0.18em] uppercase text-xs">
+          <span className="inline-block px-6 py-2.5 mb-5 rounded-full border border-white/40 bg-[#4A2E29] text-white font-semibold tracking-[0.18em] uppercase text-xs">
             Tu inversión está 100% protegida
           </span>
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-[#2f3a2c] flex items-center justify-center gap-3">
-            <ShieldCheck className="w-10 h-10 text-[#d4a017]" />
+          <h2 className="font-heading text-3xl md:text-4xl font-bold text-[#241F1D] flex items-center justify-center gap-3">
+            <ShieldCheck className="w-10 h-10 text-[#E8A33D]" />
             Garantía Total de 7 Días
           </h2>
         </div>
@@ -20,7 +20,7 @@ export function GuaranteeSection() {
             sentís que no cumple lo que prometemos, te devolvemos el 100% de
             tu dinero. Sin formularios. Sin explicaciones. Sin riesgo.
           </p>
-          <div className="inline-flex bg-white px-4 py-2 rounded-full border border-amber-200 text-[#6f7a64] font-bold text-sm shadow-sm">
+          <div className="inline-flex bg-white px-4 py-2 rounded-full border border-amber-200 text-[#6B5F5A] font-bold text-sm shadow-sm">
             Riesgo Cero Garantizado ✅
           </div>
         </div>

@@ -4,34 +4,33 @@ import { ArrowRight } from "lucide-react";
 import { getCheckoutUrl } from "../utils/checkoutUrl";
 export function FinalPricingCTA() {
   return (
-    <section className="py-10 md:py-14 bg-transparent text-[#2f3a2c] text-center relative overflow-hidden">
+    <section className="py-2 md:py-14 bg-transparent text-[#241F1D] text-center relative overflow-hidden">
       <div
         aria-hidden="true"
         className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none"
       >
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] rounded-full bg-[#d4a017]/10 blur-[100px]" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] rounded-full bg-[#E8A33D]/10 blur-[100px]" />
       </div>
       <div className="container mx-auto px-4 max-w-3xl relative z-10">
-        <div className="mb-5">
-          <span className="inline-block px-6 py-2.5 rounded-full border border-white/40 bg-[#4A553F] text-white font-semibold tracking-[0.18em] uppercase text-xs">
+        <div className="mb-6">
+          <span className="inline-block px-6 py-2.5 rounded-full border border-white/40 bg-[#4A2E29] text-white font-semibold tracking-[0.18em] uppercase text-xs">
             ⚡ Última Oportunidad
           </span>
         </div>
-        <h2 className="text-3xl md:text-5xl font-bold font-heading text-[#2f3a2c] mb-5 leading-tight">
+        <h2 className="text-3xl md:text-5xl font-bold font-heading text-[#241F1D] mb-5 leading-tight">
           Tu sistema de emergencias merece ser operativo, no decorativo.
         </h2>
         <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
-          Un plan claro, con roles reales, simulacros documentados y
-          evidencia defendible — listo para usar desde hoy.
+          Un plan claro, con roles reales, simulacros documentados y evidencia
+          defendible — listo para usar desde hoy.
         </p>
 
         <div className="bg-white border border-amber-100 rounded-3xl p-6 md:p-7 shadow-lg shadow-black/5 max-w-xl mx-auto mb-6">
-          <h3 className="font-bold text-[#2f3a2c] mb-2 text-[12px]">
-            Kit Completo: Sistema Maestro de Emergencias HyS + 5 Bonos
-            GRATIS
+          <h3 className="font-bold text-[#241F1D] mb-2 text-[12px]">
+            Kit Completo: Sistema Maestro de Emergencias HyS + 5 Bonos GRATIS
           </h3>
           <div className="text-slate-500 line-through mb-2">$74.940 ARS</div>
-          <div className="text-4xl font-bold text-[#B85C43] mb-6">
+          <div className="text-4xl font-bold text-[#C1272D] mb-6">
             $19.990 ARS
           </div>
           <motion.a
@@ -42,10 +41,10 @@ export function FinalPricingCTA() {
             whileTap={{
               scale: 0.98,
             }}
-            className="flex items-center justify-center gap-3 w-full bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold text-lg md:text-xl px-6 py-5 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-4"
+            className="flex items-center justify-center gap-3 w-full bg-[#C1272D] hover:bg-[#A31F24] text-white font-bold text-lg md:text-xl px-6 py-5 rounded-full shadow-lg shadow-[#C1272D]/30 transition-colors mb-4"
           >
             <span className="text-center">
-              🚀 SÍ, QUIERO MI SISTEMA DE EMERGENCIAS
+              🚀 ¡QUIERO MI SISTEMA DE EMERGENCIA!{" "}
             </span>
             <ArrowRight className="w-6 h-6 flex-shrink-0" />
           </motion.a>

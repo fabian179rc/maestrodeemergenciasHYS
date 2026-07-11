@@ -5,7 +5,7 @@ export default {content: [
   theme: {
     extend: {
       colors: {
-        navy: '#1a2e5a',
+        navy: '#241F1D',
         gold: '#f5c842',
         pink: '#f9d6e3',
         gray: {

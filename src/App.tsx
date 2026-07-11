@@ -7,9 +7,9 @@ const PAGE_TITLE =
   "Sistema Maestro de Emergencias HyS — Planes, Roles y Simulacros Documentados";
 const PAGE_DESC =
   "Planes, roles, simulacros y evidencia documental listos para implementar desde el primer día.";
-const HERO_IMAGE = `${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`;
+const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup.webp`;
 
-const SITE_URL = "https://placeholder.com";
+const SITE_URL = "https://maestrodeemergencias.tupuntodigital.shop";
 function setMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(
     `meta[${attr}="${key}"]`,
@@ -58,7 +58,7 @@ export function App() {
       "viewport",
       "width=device-width, initial-scale=1, viewport-fit=cover",
     );
-    setMeta("name", "theme-color", "#F9F8F6");
+    setMeta("name", "theme-color", "#FBF8F4");
     setMeta("name", "robots", "index, follow");
     setMeta("property", "og:type", "website");
     setMeta("property", "og:title", PAGE_TITLE);
@@ -91,7 +91,7 @@ export function App() {
           price: "19990",
           priceCurrency: "ARS",
           availability: "https://schema.org/InStock",
-          url: "https://placeholder.impultienda.ar/checkout",
+          url: "https://maestro-de-emergencias.impultienda.ar/checkout",
         },
       });
       document.head.appendChild(ld);

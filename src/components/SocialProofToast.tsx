@@ -61,7 +61,7 @@ export function SocialProofToast() {
           transition={{ duration: 0.35 }}
           className="fixed bottom-6 left-4 sm:left-6 z-40 w-[260px] sm:w-[290px]"
         >
-          <div className="relative bg-[#1c2420] border border-white/10 rounded-2xl shadow-2xl shadow-black/40 px-4 py-3.5">
+          <div className="relative bg-[#201B19] border border-white/10 rounded-2xl shadow-2xl shadow-black/40 px-4 py-3.5">
             <button
               onClick={() => setCurrent(null)}
               aria-label="Cerrar"

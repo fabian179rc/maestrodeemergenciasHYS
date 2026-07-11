@@ -26,9 +26,9 @@ export function FloatingCTA() {
             <a
               href="#comprar"
               onClick={scrollToOffer}
-              className="inline-flex items-center justify-center gap-2 bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold text-base px-8 py-4 rounded-full shadow-2xl shadow-[#B85C43]/40 border-2 border-white/20 transition-colors"
+              className="inline-flex items-center justify-center gap-2 bg-[#C1272D] hover:bg-[#A31F24] text-white font-bold text-base px-2 py-4 rounded-full shadow-2xl shadow-[#C1272D]/40 border-2 border-white/20 transition-colors"
             >
-              🚀 SÍ, QUIERO MI SISTEMA DE EMERGENCIAS
+              🚀 ¡QUIERO MI SISTEMA DE EMERGENCIA!
             </a>
           </div>
         </motion.div>

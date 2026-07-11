@@ -32,7 +32,7 @@ export function ProblemSection() {
     <section className="py-10 md:py-14 bg-transparent">
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-8">
-          <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#2f3a2c] uppercase">
+          <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#241F1D] uppercase">
             ¿Te reconocés en esto?
           </h2>
         </div>
@@ -58,7 +58,7 @@ export function ProblemSection() {
             className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
 
               <div className="text-3xl mb-3">{item.emoji}</div>
-              <h3 className="text-lg font-bold text-[#2f3a2c] mb-2">
+              <h3 className="text-lg font-bold text-[#241F1D] mb-2">
                 {item.title}
               </h3>
               <p className="text-slate-600 leading-relaxed">
