@@ -24,7 +24,7 @@ export function HeroSection() {
           transition={{
             duration: 0.5,
           }}
-          className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 md:mb-4 rounded-full border border-white/40 bg-[#4A2E29] text-white font-semibold tracking-[0.18em] uppercase text-[8px] md:text-xs"
+          className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 md:mb-4 rounded-full border border-white/40 bg-[#4A2E29] text-white font-semibold tracking-[0.18em] uppercase text-[8px] md:text-sm"
         >
           ✨ SISTEMA MAESTRO DE EMERGENCIAS HyS
         </motion.div>
@@ -42,7 +42,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.1,
           }}
-          className="font-heading md:text-5xl font-extrabold text-[#241F1D] mb-4 md:mb-3 text-[26px]"
+          className="font-heading md:text-6xl font-extrabold text-[#241F1D] mb-4 md:mb-4 text-[26px]"
         >
           Si suena la alarma,{" "}
           <span className="text-[#C1272D]"> ¿tu equipo sabe qué hacer?</span>
@@ -61,7 +61,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.2,
           }}
-          className="mx-auto mb-6 md:mb-4 w-full max-w-[300px] sm:max-w-sm md:max-w-[300px]"
+          className="mx-auto mb-6 md:mb-5 w-full max-w-[300px] sm:max-w-sm md:max-w-[360px]"
         >
           <img
             src={`${import.meta.env.BASE_URL}mockup.webp`}
@@ -88,7 +88,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.3,
           }}
-          className="md:text-lg text-slate-600 mb-6 md:mb-5 max-w-2xl mx-auto text-[12px] mt-8 md:mt-0"
+          className="md:text-xl text-slate-600 mb-6 md:mb-6 max-w-2xl mx-auto text-[12px] mt-8 md:mt-0"
         >
           Planes, roles, simulacros y evidencia documental listos para
           implementar desde el primer día.
@@ -107,7 +107,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.4,
           }}
-          className="flex flex-col items-center mt-14 md:mt-2"
+          className="flex flex-col items-center mt-14 md:mt-3"
         >
           <motion.a
             href="#comprar"
@@ -118,12 +118,12 @@ export function HeroSection() {
             whileTap={{
               scale: 0.98,
             }}
-            className="flex items-center justify-center gap-3 w-full sm:w-auto bg-[#C1272D] hover:bg-[#A31F24] text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-[#C1272D]/30 transition-colors mb-14 md:mb-4 text-[16px] md:text-lg"
+            className="flex items-center justify-center gap-3 w-full sm:w-auto bg-[#C1272D] hover:bg-[#A31F24] text-white font-bold px-8 py-4 md:py-5 rounded-full shadow-lg shadow-[#C1272D]/30 transition-colors mb-14 md:mb-5 text-[16px] md:text-xl"
           >
             🚀 ¡QUIERO MI SISTEMA DE EMERGENCIA!{" "}
           </motion.a>
 
-          <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-slate-600">
+          <div className="flex flex-wrap justify-center gap-4 text-sm md:text-base font-medium text-slate-600">
             <span>
               <span aria-hidden="true">👥</span> +1.200 técnicos y profesionales
               HyS ya lo descargaron
