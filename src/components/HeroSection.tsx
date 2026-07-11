@@ -146,7 +146,7 @@ export function HeroSection() {
             </span>
             <span>
               <span aria-hidden="true">🛡️</span> Garantía de 7 Días — Riesgo
-              Cero
+              Cero.
             </span>
           </div>
         </motion.div>

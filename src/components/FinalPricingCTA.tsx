@@ -43,9 +43,7 @@ export function FinalPricingCTA() {
             }}
             className="flex items-center justify-center gap-3 w-full bg-[#C1272D] hover:bg-[#A31F24] text-white font-bold text-lg md:text-xl px-6 py-5 rounded-full shadow-lg shadow-[#C1272D]/30 transition-colors mb-4"
           >
-            <span className="text-center">
-              🚀 ¡QUIERO MI SISTEMA DE EMERGENCIA!{" "}
-            </span>
+            <span className="text-center">🚀 ¡QUIERO MI SISTEMA!</span>
             <ArrowRight className="w-6 h-6 flex-shrink-0" />
           </motion.a>
         </div>
